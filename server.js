@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 5000;
-const dbConnect = require("./client/databaze/connect");
+const dbConnect = require("./databaze/connect");
 
 // const database = new dbConnect()
 // database.connect();
