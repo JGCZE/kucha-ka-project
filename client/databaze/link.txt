@@ -1,0 +1,2 @@
+mongodb+srv://user123:kkiojuxw@cookbookhuss.4ncphvq.mongodb.net/?retryWrites=true&w=majority
+
