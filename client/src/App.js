@@ -1,11 +1,15 @@
 import './App.css';
+import Main from './pages/Main'
+import AddMaterial from './pages/AddMaterial'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>hello</p>
+    <div>
+      <Main />
+      <AddMaterial />
     </div>
-  );
+  )
 }
+
 
 export default App;
