@@ -12,3 +12,20 @@
     margin: 4px;
     cursor: pointer;
 }
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px ;
+}
+
+.menu a, .menu div {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.menu div {
+    color: gold;
+    font-size: 20px;
+}

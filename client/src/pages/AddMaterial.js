@@ -5,20 +5,19 @@ const AddMaterial = () => {
 
     const vlozeniDoDb = () => {
         fetch("http://localhost:5000/save-material", {
-            method:"POST",
+            method:"post",
             headers:{
                 "Accept": "application/json",
                 "Content-type": "application/json"
             },
-            body: JSON.stringify({name:vstupOdUzivatele})
+            body:JSON.stringify({name:vstupOdUzivatele})
         }).then((data) => {
             return data.json();
         }).then((finalData) => {
-            console.log(finalData.msg)
             setVstupOdUzivatele("")
         })
     }
-
+    
     return (
         <div>
             <input type="text" value={vstupOdUzivatele} onInput={(e) => {

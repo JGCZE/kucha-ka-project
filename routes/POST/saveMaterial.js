@@ -17,11 +17,10 @@ saveMaterial.post("/save-material", (req, res) => {
             })
         }
     })
-    res.send("ANO, POST")
 })
 
 saveMaterial.get("/save-material", (req, res) => {
-    res.send("ANO, GET")
+    res.send("ANO, navštívil si /save-material GETEM")
 })
 
 module.exports = saveMaterial

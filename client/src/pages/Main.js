@@ -13,7 +13,7 @@ const Main = () => {
     }, [])
 
     const pridaniMaterialu = async () => {
-        setServerMessage("načítám data")
+        setServerMessage("načítám data");
         const data = await fetch("http://localhost:5000/get-materials");
         const finalData = await data.json();
         const {msg, documents} = finalData
